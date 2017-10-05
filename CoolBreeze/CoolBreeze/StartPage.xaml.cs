@@ -23,7 +23,6 @@ namespace CoolBreeze
         private void InitializeAppAsync()
         {
             //DateTime badDateTime = DateTime.Parse("This is not a date or time");
-            DateTime badDateTime = DateTime.Parse("This is not a date or time");
             if (App.ViewModel == null) App.ViewModel = new MainViewModel();
         }
 
